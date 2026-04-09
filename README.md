@@ -182,7 +182,9 @@ C:\> net user
 
 ## Baixando arquivos
 cmd = certutil -urlcache -split -f  
+
 link = https://raw.githubusercontent.com/thiagosmith/scripts-powershell/refs/heads/main/info.ps1 
+
 file = info.ps1
 
 ```
